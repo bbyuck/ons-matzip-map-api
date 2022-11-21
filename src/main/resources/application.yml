@@ -1,2 +1,11 @@
 server:
   port: 5000
+
+ 
+# datasource
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.OracleDriver
+    username: APP_USER
+    password: 1q2w3e4R!@#$
+    url: jdbc:oracle:thin:@pml_high?TNS_ADMIN=./src/main/resources/static/Wallet_PML
